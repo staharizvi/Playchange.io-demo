@@ -16,9 +16,24 @@ const exo2 = Exo_2({
 })
 
 export const metadata: Metadata = {
-  title: "HyperTech Platform",
-  description: "Hyper-futuristic gaming platform with cutting-edge technology",
-    generator: 'v0.dev'
+  title: "PlayChange.io - In Games We Trust",
+  description:
+    "The ultimate gaming platform where trust meets innovation. Join millions of gamers in a revolutionary ecosystem built on blockchain technology.",
+  keywords: "gaming, blockchain, web3, NFT, cryptocurrency, social impact, community",
+  authors: [{ name: "PlayChange.io Team" }],
+  openGraph: {
+    title: "PlayChange.io - In Games We Trust",
+    description: "The ultimate gaming platform where trust meets innovation.",
+    url: "https://playchange.io",
+    siteName: "PlayChange.io",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "PlayChange.io - In Games We Trust",
+    description: "The ultimate gaming platform where trust meets innovation.",
+  },
+  generator: "v0.dev",
 }
 
 export default function RootLayout({
